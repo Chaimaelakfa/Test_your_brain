@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Test_your_brain"
         tools:targetApi="31">
         <activity
+            android:name=".welcome_screen"
+            android:exported="false" />
+        <activity
             android:name=".start_screen"
             android:exported="false" />
         <activity

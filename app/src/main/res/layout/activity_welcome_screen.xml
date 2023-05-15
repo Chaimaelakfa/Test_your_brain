@@ -6,7 +6,6 @@
     android:background="@drawable/arr_plan"
     android:orientation="vertical">
 
-
     <ImageView
         android:layout_width="450dp"
         android:layout_height="200dp"
@@ -15,26 +14,25 @@
         android:src="@drawable/logo" />
 
     <TextView
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:text="In this game you will solve 20 mathematic operations the maximum at the end you will know your score out of 20"
+        android:layout_gravity="center_horizontal"
+
+        android:text="Welcome"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
-        android:textStyle="normal"
-        tools:ignore="HardcodedText" />
+        android:textSize="55sp"
+        android:textStyle="normal" />
 
     <Button
-        android:id="@+id/startButton"
+        android:id="@+id/nextButton"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
         android:background="@android:color/white"
         android:minWidth="200dp"
         android:minHeight="50dp"
-        android:text="Get Started"
+        android:text="Next"
         android:textColor="#FFFFFF"
         android:textSize="25sp"
         android:textStyle="bold" />
